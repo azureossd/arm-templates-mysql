@@ -217,9 +217,9 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/azureossd/general-scripts/master/Linux/install_ruby_specific_version_rbenv.sh"
+            "https://raw.githubusercontent.com/azureossd/mysql-1/master/mysql_install.sh"
           ],
-          "commandToExecute": "[concat('sudo sh install_ruby_specific_version_rbenv.sh ',variables('adminUsername'))]"
+          "commandToExecute": "[concat('sudo sh mysql_install.sh ',variables('adminUsername'))]"
         }
       }
     }
