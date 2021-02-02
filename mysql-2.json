@@ -217,7 +217,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "https://raw.githubusercontent.com/azureossd/mysql-1/master/mysql_install_import.sh"
+            "https://raw.githubusercontent.com/azureossd/mysql-2/master/mysql_install_import.sh"
           ],
           "commandToExecute": "[concat('sudo sh mysql_install_import.sh ',variables('adminUsername'))]"
         }
